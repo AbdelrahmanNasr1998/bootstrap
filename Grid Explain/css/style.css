@@ -1,0 +1,20 @@
+.os{
+    background: #333;
+    color: #FFF;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.os-hide{
+    background: green;
+    color: #FFF;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.os-show{
+    background: red;
+    color: #FFF;
+    margin-bottom: 10px;
+    padding: 10px;
+}
