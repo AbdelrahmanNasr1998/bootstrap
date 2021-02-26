@@ -1,0 +1,97 @@
+<!--
+Large Screens         lg
+Medium Screens        md
+Small Screens         sm
+Extra Small Screens   xs
+
+Grid System = 12 Unit
+
+EX: class="col-lg-4"
+
+col = Column
+lg  = Large Screen
+4 = 4 Units From 12 Units
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <!-- IE Compatability Meta -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- First Mobile Meta -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap</title>
+        <link rel='stylesheet' href='css/bootstrap.css' />
+        <link rel='stylesheet' href='css/rtl.css' />
+        <link rel='stylesheet' href='css/style.css' />
+        <script src="js/html5shiv.min.js"></script>
+        <script src="js/respond.min.js"></script>
+    </head>
+    <body>
+        
+        <div class="container">
+            <div class="row">
+                
+                <!-- 3 Large Screen 12/3=4 -->
+                <!-- 4 Medium Screen 12/4=3 -->
+                <!-- 6 Small Screen 12/6=2 -->
+                <!-- 12 Extra Small Screen 12/12=1 -->
+                
+                <!-- Nesting -->
+                
+                <div class="col-lg-12">
+                <div clas="row">
+                
+                    <div class="col-lg-4 col-md-4">
+                    <div class="os">
+                        <img class="img-responsive center-block" src="1.jpg" alt="Anime" />
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-8">
+                    <div class="os">
+                        <h1>I Love Anime</h1>
+                        <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="os">
+                    Product 1
+                    </div>
+                </div> 
+                <div class="col-lg-4 col-md-6">
+                    <div class="os">
+                    Product 2
+                    </div>
+                </div>        
+                <div class="col-lg-4 col-md-6">
+                    <div class="os">
+                    Product 3
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="os">
+                    Product 4
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="os">
+                    Product 5
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="os">
+                    Product 6
+                    </div>
+                </div>
+                    
+                </div>
+                </div>
+                    
+            </div>
+        </div>
+        
+        <script src="js/jquery-1.11.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
