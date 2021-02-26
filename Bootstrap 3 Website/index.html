@@ -1,0 +1,731 @@
+<!--
+Large Screens         lg
+Medium Screens        md
+Small Screens         sm
+Extra Small Screens   xs
+
+Grid System = 12 Unit
+
+EX: class="col-lg-4"
+
+col = Column
+lg  = Large Screen
+4 = 4 Units From 12 Units
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <!-- IE Compatability Meta -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- First Mobile Meta -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Root-X Team</title>
+        <link type="image/x-icon" href="icon.jpg" rel="shortcut icon" />
+        <link rel='stylesheet' href='css/bootstrap.css' />
+        <link rel='stylesheet' href='css/all.min.css' />
+        <link rel='stylesheet' href='css/rtl.css' />
+        <link rel='stylesheet' href='css/style.css' />
+        <link rel='stylesheet' href='css/themes/default_theme.css' />
+        <link rel='stylesheet' href='css/hover.css' />
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel='stylesheet' href='css/pace.css' />
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+        <script src="js/html5shiv.min.js"></script>
+        <script src="js/respond.min.js"></script>
+        <script src="js/pace.min.js"></script>
+        </head>
+    <body>
+        
+        <!--Start Tool Box Section -->
+        <section class="option-box">
+          <div class="color-option">
+            <h4>Site Color</h4>
+            <ul class="list-unstyled">
+              <li data-value="css/themes/default_theme.css"></li>
+              <li data-value="css/themes/blue_theme.css"></li>
+              <li data-value="css/themes/green_theme.css"></li>
+              <li data-value="css/themes/orange_theme.css"></li>
+              <li data-value="css/themes/yellow_theme.css"></li>
+              <li data-value="css/themes/pink_theme.css"></li>
+              <li data-value="css/themes/purple_theme.css"></li>
+            </ul>
+          </div>
+          <i class="fas fa-palette fa-3x paints"></i>
+        </section>
+        <!--End Tool Box Section -->
+
+        <!-- Start Scroll To Top -->
+
+        <div id="scroll-top">
+          <i class="fas fa-angle-up fa-3x"></i>
+        </div>
+
+        <!-- Start Scroll To Top -->
+
+        <!-- Start Navbar -->
+
+        <!-- [navbar-inverse] To Revese Colors Or You Can Use [navbar-default] -->
+        <!-- [navbar-fixed-top] To Make Navbar Fixed You Can Choose Top Or Buttom -->
+        <!-- If You Choose Fixed Top Make [padding-top=70px] In Css Style Sheet -->
+        
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            
+          <!-- Start Container -->
+
+          <!-- you Can Use [container-fluid] To Make Navbar Take All Page Width -->
+            
+          <div class="container">
+              
+            <!-- Brand and toggle get grouped for better mobile display -->
+              
+            <div class="navbar-header">
+                
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+                
+              <a class="navbar-brand hvr-pop" href="#">Root-X <span>Team</span></a>
+                
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+              
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                
+              <ul class="nav navbar-nav navbar-right">
+                  
+                <li class="active "><a href="#">Home <span class="sr-only">(current)</span></a></li>
+                <li><a class="hvr-grow" href="#">About</a></li>
+                <li><a class="hvr-grow" href="#">Company</a></li>
+                
+                <li class="dropdown">
+                  <a class="hvr-grow" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services<span class="caret"></span></a>
+                    
+                  <ul class="dropdown-menu">
+                      
+                    <li><a href="#">Pentesting</a></li>
+                    <li><a href="#">Malware Analysis</a></li>
+                    <li><a href="#">Reverse Engineering</a></li>
+                      
+                    <li role="separator" class="divider"></li>
+                      
+                    <li><a href="#">Cryptography</a></li>
+                  </ul>
+
+                
+                <li><a class="hvr-grow" href="#">Partners</a></li>
+                <li><a class="hvr-grow" href="#">Contact</a></li>
+                  </ul>
+                
+              <!--  Search Form --
+
+              <form class="navbar-form navbar-left">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Search">
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+              </form>
+              -->
+                
+              <!-- Here You Can Use [navbar-right] or [navbar-left] -->
+               
+              <!--    
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Link</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                  </ul>
+                </li>
+              </ul>
+
+              -->
+                
+            </div>
+            <!-- /.navbar-collapse -->
+          </div>
+          <!-- /.container-fluid -->
+          <!-- End Container -->
+        </nav>
+        
+        <!-- End Navbar -->
+        
+        <!-- Start Caruousel [Slid Show] -->
+
+        <div id="my-slide" class="carousel slide hidden-xs" data-ride="carousel">
+            
+          <!-- Indicators -->
+            
+          <ol class="carousel-indicators hidden-xs">
+            <li data-target="#my-slide" data-slide-to="0" class="active"></li>
+            <li data-target="#my-slide" data-slide-to="1"></li>
+            <li data-target="#my-slide" data-slide-to="2"></li>
+            <li data-target="#my-slide" data-slide-to="3"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+            
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="images/1.jpg" alt="...">
+              <div class="carousel-caption">
+                <h1>Pentesting</h1>
+                <p class="lead visible-lg">
+                Bootstrap exclusively uses CSS3 for its animations, but Internet Explorer 8 & 9 don't support the necessary CSS properties. Thus, there are no slide transition animations when using these browsers.
+                </p>
+                <p class="lead visible-md">
+                  Bootstrap exclusively uses CSS3 for its animations.
+                </p>
+                <div class="btn btn-primary hidden-xs">primary</div>
+                <div class="btn btn-danger hidden-xs">danger</div>
+              </div>
+            </div>
+              
+            <div class="item">
+              <img src="images/2.jpg" alt="...">
+              <div class="carousel-caption">
+                <h1>Malware Analysis</h1>
+                <p class="lead visible-lg">
+                Bootstrap exclusively uses CSS3 for its animations, but Internet Explorer 8 & 9 don't support the necessary CSS properties. Thus, there are no slide transition animations when using these browsers.
+                </p>
+                <p class="lead visible-md">
+                  Bootstrap exclusively uses CSS3 for its animations.
+                </p>
+                <div class="btn btn-success hidden-xs">success</div>
+              </div>
+            </div>
+              
+            <div class="item">
+              <img src="images/3.jpg" alt="...">
+              <div class="carousel-caption">
+                <h1>Reverse Engineering</h1>
+                <p class="lead visible-lg">
+                Bootstrap exclusively uses CSS3 for its animations, but Internet Explorer 8 & 9 don't support the necessary CSS properties. Thus, there are no slide transition animations when using these browsers.
+                </p>
+                <p class="lead visible-md">
+                  Bootstrap exclusively uses CSS3 for its animations.
+                </p>
+                <div class="btn btn-info hidden-xs">info</div>
+              </div>
+            </div>
+              
+            <div class="item">
+              <img src="images/4.jpg" alt="...">
+              <div class="carousel-caption">
+                <h1>Cryptography</h1>
+                <p class="lead visible-lg">
+                Bootstrap exclusively uses CSS3 for its animations, but Internet Explorer 8 & 9 don't support the necessary CSS properties. Thus, there are no slide transition animations when using these browsers.
+                </p>
+                <p class="lead visible-md">
+                  Bootstrap exclusively uses CSS3 for its animations.
+                </p>
+                <div class="btn btn-warning hidden-xs">warning</div>
+              </div>
+            </div>
+
+          </div>
+            
+          <!-- Controls -->
+
+          <a class="left carousel-control" href="#my-slide" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+            
+          <a class="right carousel-control" href="#my-slide" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+            
+        </div>
+        
+        <!-- End Caruousel [Slid Show] -->
+        
+        <!-- Start About Section -->
+
+        <section class="about text-center wow bounceIn" data-wow-duration="2s" >
+        <div class="container hvr-shadow-radial">
+        <h1>We Are <span>Root X</span>, Hunt Or Be Hunted.</h1>
+        <p class="lead">
+        We are Legion. We do not forgive. We do not forget. Expect us.<br>
+        Usually There Is Another Way To Do The Same Thing. 
+        </p>
+        </div>
+        </section>
+
+        <!-- End About Section -->
+        
+        <!-- Start Features Section -->
+
+        <section class="features text-center">
+        <div class="container">
+        <h1 class="wow flipInY" data-wow-duration="2s" data-wow-offset="100">Our Features</h1>
+            
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            
+            <div class="feat hvr-float-shadow wow bounceInLeft" data-wow-duration="2s" data-wow-offset="100">
+            <img src="images/5.png">
+            <h4>Pentesting</h4>
+            <p>We are Legion. We do not forgive. We do not forget. Expect us.Usually There Is Another Way To Do The Same Thing.</p>
+            </div>
+            
+        </div>   
+            
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            
+            <div class="feat hvr-float-shadow wow bounceInUp" data-wow-duration="2s" data-wow-offset="100">
+            <img src="images/6.png">
+            <h4>Malware Analysis</h4>
+            <p>We are Legion. We do not forgive. We do not forget. Expect us.Usually There Is Another Way To Do The Same Thing.</p>
+            </div>
+            
+        </div>  
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            
+            <div class="feat hvr-float-shadow wow bounceInDown" data-wow-duration="2s" data-wow-offset="100">
+            <img src="images/7.jpg">
+            <h4>Reverse Engineering</h4>
+            <p>We are Legion. We do not forgive. We do not forget. Expect us.Usually There Is Another Way To Do The Same Thing.</p>
+            </div>
+            
+        </div>  
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            
+            <div class="feat hvr-float-shadow wow bounceInRight" data-wow-duration="2s" data-wow-offset="100">
+            <img src="images/8.jpg">
+            <h4>Cryptography</h4>
+            <p>We are Legion. We do not forgive. We do not forget. Expect us.Usually There Is Another Way To Do The Same Thing.</p>
+            </div>
+            
+        </div>  
+        </div>
+        </section>
+        <!-- End Features Section -->
+        
+        <!-- Start Testimonials Section -->
+        
+        <section class="testimonials text-center wow bounceIn" data-wow-duration="2s" data-wow-offset="100">
+        <div class="container">
+               <h1>What Our Clients Say</h1>
+            
+        <!-- Start Testimonials Carousel -->
+                   
+        <div id="carousel-testimonials" class="carousel slide" data-ride="carousel">
+            
+          <!-- Indicators -->
+
+          <!-- Wrapper for slides -->
+            
+          <div class="carousel-inner" role="listbox">
+              
+            <div class="item active">
+                <p class="lead">
+                Bootstrap exclusively uses CSS3 for its animations, but Internet Explorer 8 & 9 don't support the necessary CSS properties. Thus, there are no slide transition animations when using these browsers. We have intentionally decided not to include jQuery-based fallbacks for the transitions.
+                </p>
+                <span>Offensive Security</span>
+            </div>
+              
+            <div class="item">
+                <p class="lead">
+                Bootstrap exclusively uses CSS3 for its animations, but Internet Explorer 8 & 9 don't support the necessary CSS properties. Thus, there are no slide transition animations when using these browsers. We have intentionally decided not to include jQuery-based fallbacks for the transitions.
+                </p>
+                <span>ISC2</span>
+            </div>
+              
+            <div class="item">
+                <p class="lead">
+                Bootstrap exclusively uses CSS3 for its animations, but Internet Explorer 8 & 9 don't support the necessary CSS properties. Thus, there are no slide transition animations when using these browsers. We have intentionally decided not to include jQuery-based fallbacks for the transitions.
+                </p>
+                <span>Hakin9</span>
+            </div>
+              
+            <div class="item">
+                <p class="lead">
+                Bootstrap exclusively uses CSS3 for its animations, but Internet Explorer 8 & 9 don't support the necessary CSS properties. Thus, there are no slide transition animations when using these browsers. We have intentionally decided not to include jQuery-based fallbacks for the transitions.
+                </p>
+                <span>E-learns Scurity</span>
+            </div>
+
+          </div>
+            
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-testimonials" data-slide-to="0" class="active">
+              <img src="images/9.jpg">
+              </li>
+            <li data-target="#carousel-testimonials" data-slide-to="1">
+              <img src="images/10.png">
+              </li>
+            <li data-target="#carousel-testimonials" data-slide-to="2">
+              <img src="images/11.jpeg">
+              </li>
+            <li data-target="#carousel-testimonials" data-slide-to="3">
+              <img src="images/12.png">
+              </li>
+        </ol> 
+            
+        </div>
+
+            <!-- End Testimonials Carousel -->
+
+        </div>
+            
+        </section>
+        
+        <!-- End Testimonials Section -->
+        
+        <!-- Start Price Section -->
+        
+        <section class="price_table text-center">
+        <div class="container">
+        
+            <h1 class="wow flipInY" data-wow-duration="2s" data-wow-offset="100">Our Plans Prices</h1>
+            
+            <div class="row">
+            
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 hvr-bounce-in wow bounceInLeft" data-wow-duration="2s" data-wow-offset="100">
+            <div class="price_box">
+            <h3 class="text-danger">Pentesting<br>Plan</h3>
+            <p class="center-block">30,000$</p>
+            <ul class="list-unstyled">
+                <li>Web Pentesting</li>   
+                <li>Network Pentesting</li> 
+                <li>Manual Scan</li> 
+                <li>Dynamic Scan</li>
+                <li>24 hour a day</li>
+                <li>7 days a week</li>
+            </ul>
+            <a href="#" class="btn btn-danger">Order Now</a>
+            </div>    
+            </div>
+                            
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 hvr-bounce-in wow bounceInDown" data-wow-duration="2s" data-wow-offset="100">
+            <div class="price_box">
+            <h3 class="text-success">Malware Analysis<br>Plan</h3>   
+            <p class="center-block">30,000$</p>
+            <ul class="list-unstyled">
+                <li>RWs Analysis</li>   
+                <li>Viruses Analysis</li> 
+                <li>Manual Analysis</li> 
+                <li>Dynamic Analysis</li>
+                <li>24 hour a day</li>
+                <li>7 days a week</li>
+            </ul>
+            <a href="#" class="btn btn-success">Order Now</a>
+            </div>    
+            </div>
+                            
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 hvr-bounce-in wow bounceInUp" data-wow-duration="2s" data-wow-offset="100">
+            <div class="price_box">
+            <h3 class="text-info">RE<br>Plan</h3>
+            <p class="center-block">30,000$</p>
+            <ul class="list-unstyled">
+                <li>Programs Protect</li>   
+                <li>Reverse Engineering</li> 
+                <li>Manual Reverse</li> 
+                <li>Dynamic Reverse</li>
+                <li>24 hour a day</li>
+                <li>7 days a week</li>
+            </ul>
+            <a href="#" class="btn btn-info">Order Now</a>
+            </div>    
+            </div>
+                            
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 hvr-bounce-in wow bounceInRight" data-wow-duration="2s" data-wow-offset="100">
+            <div class="price_box">
+            <h3 class="text-warning">Cryptography<br>Plan</h3>
+            <p class="center-block">30,000$</p>
+            <ul class="list-unstyled">
+                <li>Cryptography Protect</li>   
+                <li>Steganography Protect</li> 
+                <li>Manual Cryptography</li> 
+                <li>Dynamic Cryptography</li>
+                <li>24 hour a day</li>
+                <li>7 days a week</li>
+            </ul>
+            <a href="#" class="btn btn-warning">Order Now</a>
+            </div>    
+            </div>
+            
+            </div>
+            
+        </div>
+        </section>
+        
+        <!-- End Price Section -->
+
+        <!-- Start Team Section -->
+
+        <section class="our_team text-center">
+          <div class="team">
+            <div class="container">
+              <h1 class="wow flipInY" data-wow-duration="2s" data-wow-offset="100"">Founders Team</h1>
+              <div class="row wow bounceInDown" data-wow-duration="2s" data-wow-offset="100">
+
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 hvr-bounce-in">
+                  <div class="person">
+                    <img class="img-circle" src="images/15.jpg">
+                    <h3>Mostafa Essam</h3>
+                    <p>
+                      ROOT-X CEO<br>
+                      Penetration Tester<br>
+                      Cryptographer<br>
+                      CS Graduation
+                    </p>
+                    <i class="fab fa-linkedin fa-lg"></i>
+                    <i class="fab fa-twitter-square fa-lg"></i>
+                    <i class="fab fa-facebook-square fa-lg"></i>
+                    <i class="fab fa-github-square fa-lg"></i>
+                    <i class="fab fa-hackerrank fa-lg"></i>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 hvr-bounce-in">
+                  <div class="person">
+                    <img class="img-circle" src="images/16.jpg">
+                    <h3>Amr Naom</h3>
+                    <p>
+                      ROOT-X CEO<br>
+                      Malware Analyst<br>
+                      Cryptographer<br>
+                      CS Graduation
+                    </p>
+                    <i class="fab fa-linkedin fa-lg"></i>
+                    <i class="fab fa-twitter-square fa-lg"></i>
+                    <i class="fab fa-facebook-square fa-lg"></i>
+                    <i class="fab fa-github-square fa-lg"></i>
+                    <i class="fab fa-hackerrank fa-lg"></i>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 hvr-bounce-in">
+                  <div class="person">
+                    <img class="img-circle" src="images/14.jpg">
+                    <h3>Abdelrahman Nasr</h3>
+                    <p>
+                      ROOT-X CEO<br>
+                      Penetration Tester<br>
+                      Cryptographer<br>
+                      CS Graduation
+                    </p>
+                    <i class="fab fa-linkedin fa-lg"></i>
+                    <i class="fab fa-twitter-square fa-lg"></i>
+                    <i class="fab fa-facebook-square fa-lg"></i>
+                    <i class="fab fa-github-square fa-lg"></i>
+                    <i class="fab fa-hackerrank fa-lg"></i>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- End Team Section -->
+
+        <!-- Start Subscribe Section -->
+        
+        <section class="subscribe text-center wow flipInY" data-wow-duration="2s" data-wow-offset="100">
+          <div class="container">
+              <h1>Keep In Touch</h1>
+              <p class="lead">
+                Sign Up For Newsletter Do Not Worry About Spam, We Hate It Too.
+              </p>
+              <form class="form-inline">
+                <input class="form-control input-lg" type="text" placeholder="Write Your E-Mail">
+                <button class="btn btn-danger btn-lg"><i class="far fa-edit"></i> Subscribe</button>
+              </form>
+          </div>
+        </section>
+        
+        <!-- End Subscribe Section -->
+
+        <!-- Start Stats Section -->
+
+        <section class="statistics text-center">
+          <div class="data">
+            <div class="container">
+              <h1 class="wow flipInY" data-wow-duration="2s" data-wow-offset="100">Company Statistics</h1>
+            
+              <div class="row">
+
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 hvr-bounce-in wow bounceInLeft" data-wow-duration="2s" data-wow-offset="100">
+                  <div class="stats">
+                    <i class="fas fa-user-shield fa-5x"></i>
+                    <p>3,000</p>
+                    <span>Employees</span>
+                  </div>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 hvr-bounce-in wow bounceInUp" data-wow-duration="2s" data-wow-offset="100">
+                  <div class="stats">
+                    <i class="fas fa-user-tie fa-5x"></i>
+                    <p>30</p>
+                    <span>Partners</span>
+                  </div>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 hvr-bounce-in wow bounceInDown" data-wow-duration="2s" data-wow-offset="100">
+                  <div class="stats">
+                    <i class="far fa-user fa-5x"></i>
+                    <p>3,000,000</p>
+                    <span>Users</span>
+                  </div>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 hvr-bounce-in wow bounceInRight" data-wow-duration="2s" data-wow-offset="100">
+                  <div class="stats">
+                    <i class="fas fa-tasks fa-5x"></i>
+                    <p>300,000</p>
+                    <span>Projects</span>
+                  </div>
+                </div>
+
+            </div>
+          </div>
+              </div>
+        </section>
+
+        <!-- End Stats Section -->
+
+        <!-- Start Partner Section -->
+
+            <section class="partner text-center">
+              <div class="container">
+                <i class="far fa-handshake fa-5x wow flipInY" data-wow-duration="2s" data-wow-offset="100"></i>
+                <h1 class="wow flipInY" data-wow-duration="2s" data-wow-offset="100">Our Best Partners</h1>
+                <div class="row">
+                  <ul class="list-unstyled">
+                    <li class="col-lg-2 col-md-2 col-sm-4 col-xs-6 wow bounceInLeft" data-wow-duration="2s" data-wow-offset="100">
+                      <img src="images/18.png">
+                    </li>
+                    <li class="col-lg-2 col-md-2 col-sm-4 col-xs-6 wow bounceInUp" data-wow-duration="2s" data-wow-offset="100">
+                      <img src="images/19.jpeg">
+                    </li>
+                    <li class="col-lg-2 col-md-2 col-sm-4 col-xs-6 wow bounceInDown" data-wow-duration="2s" data-wow-offset="100">
+                      <img src="images/20.png">
+                    </li>
+                    <li class="col-lg-2 col-md-2 col-sm-4 col-xs-6 wow bounceInUp" data-wow-duration="2s" data-wow-offset="100">
+                      <img src="images/21.jpg">
+                    </li>
+                    <li class="col-lg-2 col-md-2 col-sm-4 col-xs-6 wow bounceInDown" data-wow-duration="2s" data-wow-offset="100">
+                      <img src="images/22.jpg">
+                    </li>
+                    <li class="col-lg-2 col-md-2 col-sm-4 col-xs-6 wow bounceInRight" data-wow-duration="2s" data-wow-offset="100">
+                      <img src="images/23.png">
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+
+        <!-- Start Partner Section -->
+
+        <!-- Start Contact Section -->
+        <section class="contact text-center">
+          <div class="container">
+            <div class="row">
+
+              <i class="fas fa-headset fa-5x wow flipInY" data-wow-duration="2s" data-wow-offset="100"></i>
+              <h1 class="wow flipInY" data-wow-duration="2s" data-wow-offset="100">Contact Us</h1>
+              <p class="lead wow flipInY" data-wow-duration="2s" data-wow-offset="100">Tell Us What You Feeling, Contact Us Anytime.</p>
+              
+              <form role="form">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 wow bounceInLeft" data-wow-duration="1s" data-wow-offset="100">
+                  <div class="form-group">
+                    <input type="text" class="form-control input-lg" placeholder="Name">
+                  </div>
+    
+                  <div class="form-group">
+                    <input type="text" class="form-control input-lg" placeholder="E-Mail">
+                  </div>
+    
+                  <div class="form-group">
+                    <input type="text" class="form-control input-lg" placeholder="Phone">
+                  </div>
+                </div>
+              </form>
+
+              <form role="form">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 wow bounceInRight" data-wow-duration="1s" data-wow-offset="100">
+                <div class="form-group">
+                  <textarea class="form-control input-lg" placeholder="Message"></textarea>
+                </div>
+              <button type="button" class="btn btn-danger btn-lg btn-block">Contact Us</button>  
+              </div>
+              </form>
+
+            </div>
+          </div>
+        </section>
+        <!-- End Contact Section -->
+
+        <!-- Start Footer Section -->
+
+        <section class="footer text-center wow flipInY" data-wow-duration="2s" data-wow-offset="100">
+          <div class="footer-o">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                  <h3>Site Map</h3>
+                  <ul class="list-unstyled three-cols">
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Company</li>
+                    <li>Services</li>
+                    <li>Pentesting</li>
+                    <li>Malware Analysis</li>
+                    <li>RE</li>
+                    <li>Cryptography</li>
+                    <li>Partners</li>
+                  </ul>
+                  <ul class="list-unstyled social-list">
+                    <i class="fab fa-facebook-square fa-2x"></i>
+                    <i class="fab fa-twitter-square fa-2x"></i>
+                    <i class="fab fa-linkedin fa-2x"></i>
+                    <i class="fab fa-github-square fa-2x"></i>
+                    <i class="fab fa-youtube-square fa-2x"></i>
+                    <i class="fas fa-rss-square fa-2x"></i>
+                  </ul>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                  <h3>Last Writeup</h3>
+                  <h4>LSB Article</h4>
+                  <p>
+                    Bootstrap exclusively uses CSS3 for its animations, but Internet Explorer 8 & 9 don't support the necessary CSS properties. Thus, there are no slide transition animations when using these browsers.
+                  </p>
+                  <button type="button" class="btn btn-info">Read More</button>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                  <h3>Last Project</h3>
+                  <img class="img-pro" src="images/26.jpg">
+                  <h4>LSB-Steganography Project</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="copyright">
+          Copyright &copy; 2020, Designed & Developed By <span>Root-X Team</span>.
+        </div>
+        </section>
+
+              <!-- End Footer Section -->
+
+        <script src="js/jquery-1.11.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/jquery.nicescroll.min.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script>
+        new WOW().init();
+        </script>
+    </body>
+</html>
