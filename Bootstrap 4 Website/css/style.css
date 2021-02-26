@@ -1,0 +1,104 @@
+/*
+First Color  : #000000
+Second color : #E41B17
+*/
+
+/* All */
+body
+{
+    height: 3000px;
+}
+
+
+/* Start Upper Bar */
+.upper-bar
+{
+    background: #000000;
+    color:#FFF;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* End Upper Bar */
+
+/* Start Nav Bar */
+.navbar
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.navbar-brand
+{
+    font-size: 25px;
+}
+.navbar-brand span
+{
+    color: #E41B17;
+}
+.navbar-nav
+{
+    font-size: 18px;
+}
+.navbar-light .navbar-nav .active>.nav-link
+{
+    color: #E41B17;
+}
+/* End Nav Bar */
+
+/* Start Slider */
+.slider
+{
+    background-color: bisque;
+}
+.slider .carousel-item
+{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+}
+.slider .carousel-inner
+{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.slider .carousel-inner .overlay
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+}
+.slider .carousel-inner h1
+{
+    padding-left:20px ;
+    position: absolute;
+    color: #FFF;
+    z-index: 3;
+    font-size: 80px;
+    max-width: 900px;
+}
+.slider .carousel-inner h1 span
+{
+    color: #E41B17;
+}
+.slider .carousel-slider-1
+{
+    background-image: url(../images/1.jpg);
+}
+.slider .carousel-slider-2
+{
+    background-image: url(../images/2.png);
+}
+.slider .carousel-slider-3
+{
+    background-image: url(../images/3.jpg);
+}
+.slider .carousel-indicators li
+{
+    height: 8px;
+}
+/* End Slider */
