@@ -1,0 +1,41 @@
+/********** Start Default Theme ***********/
+
+.about span,
+.testimonials span,
+.footer a:hover,
+.footer h3,
+.navbar-inverse .navbar-brand span
+{
+    color:  #0895D1
+}
+
+.option-box .color-option ul li,
+.option-box .paints,
+.carousel-indicators .active
+{
+    background:  #0895D1
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.dropdown-menu .divider
+{
+    background-color:  #0895D1
+}
+
+.testimonials .carousel-indicators li.active,
+.option-box .color-option
+{
+    border:2px solid  #0895D1
+}
+
+
+.dropdown-menu
+{
+    border-top: 3px solid  #0895D1
+}
+
+
+
+
+/*********** End Default Theme ***********/
